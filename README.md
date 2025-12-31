@@ -2,6 +2,8 @@
 
 A lightweight, stateless Node.js service designed to proxy **Tripwire** intel for offensive operations. It maintains an active session with the Torpedo Delivery Tripwire server and provides a clean JSON API for external hunter tools.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X7X21RDFR0)
+
 ## 🎯 Purpose
 To provide a stable, high-performance data feed of current wormhole signatures and system status without requiring every tool to handle complex Tripwire login handshakes or session masks.
 
