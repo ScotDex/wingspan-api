@@ -1,5 +1,5 @@
 services:
-  api-service:
+  tripwire-proxy:
     build: .
     restart: always
     env_file:
