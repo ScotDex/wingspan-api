@@ -6,14 +6,15 @@
     "express": "^5.2.1",
     "tough-cookie": "^6.0.0"
   },
-  "name": "api-conversion",
+  "name": "tripwire-proxy",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "ScottishDex",
+  "author": "",
   "license": "ISC"
 }
