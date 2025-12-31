@@ -1,0 +1,18 @@
+services:
+  api-service:
+    build: .
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "9090:9090"
+    deploy:
+      resources:
+        limits:
+          memory: 64M  
+          cpus: '0.05' 
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "1"  
